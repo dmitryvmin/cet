@@ -13,6 +13,8 @@
 
 	</div><!-- #content -->
 
+<p>footer</p>
+
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cet' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'cet' ), 'WordPress' ); ?></a>

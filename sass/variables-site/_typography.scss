@@ -1,5 +1,11 @@
-$font__main: sans-serif;
+@font-face {
+    font-family: Avenir;
+    src: url("./../fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
+}
+
+$font__main: Avenir, sans-serif;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.5;
 $font__line-height-pre: 1.6;
+
