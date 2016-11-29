@@ -1,8 +1,9 @@
 .main-navigation {
-	clear: both;
+//	clear: both;
 	display: block;
 	float: left;
 	width: 100%;
+    margin-top: 2rem;
 
 	ul {
 		display: none;
@@ -50,8 +51,11 @@
 	}
 
 	li {
-		float: left;
+		float: right;
 		position: relative;
+        
+        margin-left: 1rem;
+        margin-right: 1rem;
 
 		&:hover > a,
 		&.focus > a {
@@ -61,6 +65,7 @@
 	a {
 		display: block;
 		text-decoration: none;
+        color: white; 
 	}
 
 	.current_page_item > a,

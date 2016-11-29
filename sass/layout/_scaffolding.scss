@@ -1,0 +1,35 @@
+// containers
+
+$susy: (
+  columns: 12,
+  gutters: .25,
+  container: 960px
+);
+
+//.site-content, 
+
+.site-header, .site-footer {
+//    width: 1200px;
+//    margin: 0 auto;
+    
+    @include container;
+}
+
+
+.home-container, .cet-container {
+    @include container;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important; 
+}
+
+.cet-container {
+    
+    h3 {
+        display: inline-block;
+        border-bottom: 8px solid $primary-green;
+        margin-bottom: 2rem;
+    }
+    
+}
