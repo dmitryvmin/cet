@@ -25,7 +25,7 @@ $header-image: 'http://src.wordpress-develop.dev/wp-content/uploads/2016/11/hero
 body.home {
 
     .header-bg {
-        margin-bottom: 172px;
+        margin-bottom: 200px;
         -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 80%);
         -moz-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 80%);
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 80%);  
@@ -122,11 +122,11 @@ body.home {
 }
 .sow-carousel-title a.sow-carousel-next {
     float: right;
-    margin-right: -100px;
+    margin-right: -3rem;
 }
 .sow-carousel-title a.sow-carousel-previous {
     float: left;
-    margin-left: -100px;
+    margin-left: -3rem;
 }
 
 button.contact-btn {
@@ -143,6 +143,28 @@ button.more-btn {
     height: 50px; 
     color: white;
     border: none; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+//.ow-button-base.ow-button-align-center {
+//    text-align: initial !important;
+//}
+
+.ow-button-base a {
+    background: none !important;
+    text-shadow: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+//    text-align: left !important; 
+}
+
+.more-btn .ow-button-base a {
+    background-color: $primary-green !important;
+//    width: 140px; 
+    height: 50px; 
+    color: white !important;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -202,8 +224,8 @@ button.more-btn {
 
 .projects-row {
     border-top: 8px dashed white;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+//    margin-bottom: 2rem;
+//    margin-top: 1rem;
 }
 
 
@@ -286,5 +308,12 @@ button.more-btn {
   }
 }
 
+// Menu
 
-
+.main-navigation ul ul {
+    background-color: rgba(0,0,0,0.2); 
+    
+    li a {
+        color: white;
+    }
+}

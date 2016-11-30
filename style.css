@@ -731,7 +731,7 @@ object {
     display: block;
     clear: both; }
 
-.cet-container h3 {
+.cet-section h3 {
   display: inline-block;
   border-bottom: 8px solid #85C346;
   margin-bottom: 2rem; }
@@ -747,7 +747,7 @@ object {
   height: 300px; }
 
 body.home .header-bg {
-  margin-bottom: 172px;
+  margin-bottom: 200px;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 80%);
   -moz-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 80%);
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 80%); }
@@ -826,11 +826,11 @@ body.home .banner {
 
 .sow-carousel-title a.sow-carousel-next {
   float: right;
-  margin-right: -100px; }
+  margin-right: -3rem; }
 
 .sow-carousel-title a.sow-carousel-previous {
   float: left;
-  margin-left: -100px; }
+  margin-left: -3rem; }
 
 button.contact-btn {
   background-color: #054F96;
@@ -845,6 +845,20 @@ button.more-btn {
   height: 50px;
   color: white;
   border: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.ow-button-base a {
+  background: none !important;
+  text-shadow: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important; }
+
+.more-btn .ow-button-base a {
+  background-color: #85C346 !important;
+  height: 50px;
+  color: white !important;
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
@@ -896,9 +910,7 @@ button.more-btn {
     margin-right: 0; }
 
 .projects-row {
-  border-top: 8px dashed white;
-  margin-bottom: 2rem;
-  margin-top: 1rem; }
+  border-top: 8px dashed white; }
 
 .footer {
   padding: 3em 10;
@@ -943,3 +955,8 @@ button.more-btn {
     margin: auto;
     max-width: 35em;
     text-align: center; }
+
+.main-navigation ul ul {
+  background-color: rgba(0, 0, 0, 0.2); }
+  .main-navigation ul ul li a {
+    color: white; }
